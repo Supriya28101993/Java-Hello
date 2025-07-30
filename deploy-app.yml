@@ -19,7 +19,7 @@
         image_id: "{{ image_id }}"
         wait: yes
         count: 1
-        instance_tags:
+        tags:
           Name: "Jenkins-Deployed-EC2"
         security_groups: "{{ security_group }}"
       register: ec2
