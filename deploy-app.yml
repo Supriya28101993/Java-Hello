@@ -5,7 +5,7 @@
     key_name: "your-aws-keypair"
     region: "us-east-1"
     instance_type: "t2.micro"
-    image_id: "ami-0abcdef1234567890"  # your AMI
+    image_id: "ami-0abcdef1234567890" 
     security_group: "your-security-group"
     jar_local_path: "/path/to/your/app/build/libs/app.jar"
     jar_remote_path: "/home/ec2-user/app.jar"
